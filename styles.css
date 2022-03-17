@@ -1,0 +1,376 @@
+body{
+    font-size:15px ;
+    font-family: 'Spartan', sans-serif;
+}
+
+main{
+    
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    /* display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    
+}
+
+.container1{
+    display: flex;
+}
+
+.box1{
+    
+    margin-right:80px;
+    
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 15%;
+    top:100px;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size:larger;
+}
+
+.reviews{
+    display: flex;
+    background: url(./images/icon-star.svg);
+    background-repeat: repeat-x;
+    background-repeat: space;
+    width:100px;
+    height:17px;
+    margin-right:10px;
+    margin-top: 12px;
+    justify-content: space-around;
+    
+
+}
+
+
+.rev1{
+    display: flex;
+    background-color:#f7f2f7 ;
+    padding: 0 50px 0 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 400px;
+    
+}
+
+.rev2{
+    display: flex;
+    background-color:#f7f2f7 ;
+    padding: 0 50px 0 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-left:30px;
+    width: 400px;
+}
+
+.rev3{
+    display: flex;
+    background-color:#f7f2f7 ;
+    padding: 0 50px 0 50px;
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 400px;
+}
+h1{
+    color:hsl(300, 43%, 22%);
+    font-size:3.5em;
+    font-weight:700;
+    width:45%;
+}
+
+.provide{
+    color:hsl(303, 10%, 53%);
+    line-height: 2;
+    font-weight: 500;
+    width: 55%;
+    font-size:larger
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 7%;
+    width: 1649px;
+    
+}
+
+
+.box4{
+    background-color:hsl(300, 43%, 22%) ;
+    color:white;
+    padding:10px;
+    margin:40px;
+    
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+
+}
+
+
+.box5{
+    background-color:hsl(300, 43%, 22%) ;
+    color:white;
+    padding:10px;
+    margin:40px;
+    margin-top:70px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+
+}
+
+.box6{
+    background-color:hsl(300, 43%, 22%) ;
+    color:white;
+    padding:10px;
+    margin:40px;
+    margin-top:100px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+
+}
+
+.ni1{
+    display: flex;
+    margin-left:30px;
+    flex-direction: column;
+    
+}
+
+.ni2{
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+    
+}
+
+.no1{
+    display:flex;
+
+}
+
+.no2{
+    display:flex;
+}
+
+
+.no1 img{
+    height:40px;
+    width: 40px;
+    border-radius: 1000px;
+    margin-top:50px;
+    margin-left:30px;
+
+}
+
+.no2 img{
+    height:40px;
+    width: 40px;
+    border-radius: 1000px;
+    margin-top:50px;
+    margin-left:30px;
+}
+.name{
+    margin-top:50px;
+    padding: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.verfied{
+    margin-top:0px;
+    color:hsl(333, 80%, 67%,0.75) ;
+    font-size:1em;
+    font-weight: 700;
+}
+
+.quote{
+    margin-left: 20px;
+    line-height: 2;
+    margin-right:20px
+}
+
+.attribution{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom:0;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.attribution p{
+    display: inline;
+}
+
+@media only screen and (max-width:625px) {
+
+
+    main{
+        position: absolute;
+        z-index: 1;
+        height:100vh;
+        width:375px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    }
+
+    .box1{
+    
+        margin-right:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    h1{
+        color:hsl(300, 43%, 22%);
+        font-size:2.5em;
+        font-weight:700;
+        width:75%;
+        text-align: center;
+    }
+
+    .provide{
+        color:hsl(303, 10%, 53%);
+        line-height: 2;
+        font-weight: 500;
+        width: 75%;
+        font-size:smaller
+    }
+
+    .box2{
+        position: unset;
+        right: 0%;
+        top:0px;
+        color:hsl(300, 43%, 22%);
+        font-weight: 700;
+        font-size:larger;
+        align-items: center;
+        
+    }
+
+    .rev1{
+        display:flex;
+        flex-direction: column;
+        padding:0;
+        margin-right:0px;
+        width: 355px;
+        align-items: center;
+    }
+
+    .rev2{
+        display:flex;
+        flex-direction: column;
+        padding:0;
+        margin-right:0px;
+        margin-left: 0;
+        width: 355px;
+        align-items: center;
+    }
+    
+    .rev3{
+        display:flex;
+        flex-direction: column;
+        padding:0;
+        margin-right:0px;
+        margin-left: 0;
+        width: 355px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        background: url(./images/icon-star.svg);
+        background-repeat: repeat-x;
+        background-repeat: space;
+        width:100px;
+        height:17px;
+        margin-right:0px;
+        margin-top: 12px;
+        justify-content: space-around;
+        
+    
+    }
+
+    .box3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        right: 0%;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .box4{
+        background-color:hsl(300, 43%, 22%) ;
+        color:white;
+        padding:10px;
+        margin:30px 40px 10px 30px;
+        border-radius: 10px;
+        width: 330px;
+        height: 300px;
+    }
+    .box5{
+        background-color:hsl(300, 43%, 22%) ;
+        color:white;
+        padding:10px;
+        margin:30px 40px 10px 30px;
+        margin-top:0px;
+        border-radius: 10px;
+        width: 330px;
+        height: 300px;
+    
+    }
+
+    .box6{
+        background-color:hsl(300, 43%, 22%) ;
+        color:white;
+        padding:10px;
+        margin:30px 40px 70px 30px;;
+        margin-top:0px;
+        border-radius: 10px;
+        width: 330px;
+        height: 300px;
+    
+    }
+
+
+
+
+    
+
+
+
+}
