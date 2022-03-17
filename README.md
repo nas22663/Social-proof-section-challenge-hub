@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](./index.html)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://nas22663.github.io/Social-proof-section-challenge-hub/)
 
 ## My process
 
